@@ -1,26 +1,25 @@
-# NEXUS — Grand Line Schedule
+# NEXUS Daily Schedule — v0.3
 
-**Version 0.2 — Crew Awakening**
+NEXUS is a personal weekly routine and reminder app, not an anime-watching app.
 
-A mobile-first, anime-inspired weekly planner with an animated original pirate crew, editable missions, XP, levels, activity tracking and daily rewards.
+## Weekly routine
+- Monday: Morning Boxing; Night Medicines
+- Tuesday: Morning Muay Thai; Night BMG & VIFTG
+- Wednesday: Morning Jujutsu; Night Gunsmithing & Blacksmithing
+- Thursday: Morning Jeet Kune Do; Night Programming & Mechanical Engineering
+- Friday: Morning Taekwondo; Night AI + Robots & Cognitive Robots
+- Saturday: Morning Kenjutsu + Gun Shooting; Night Hacking
+- Sunday: Morning Wrestling; Night Mathematics
 
-## Try it in Chrome
-Enable GitHub Pages: **Settings → Pages → Deploy from a branch → main → /(root)**. Then open:
-https://treder837-stack.github.io/NEXUS-OnePiece-Schedule/
+## Features
+- Animated welcome and a daily briefing showing today's day and tasks
+- Morning and Night schedule with completion checkboxes
+- Weekly routine table and editable tasks
+- Daily Android notification at 11:00 PM (23:00), based on the reminder time in the user's Bingo setup
+- Local progress saved on the device
+
+## Timing note
+Bingo's remembered configuration supplied the 23:00 daily quest reminder. Separate start times for morning training and night learning were not present in the recovered schedule details, so they are not fabricated. The app lets you add optional task times.
 
 ## Android APK
-A push to the Android app files starts **Build NEXUS Android APK** automatically. You can also open **Actions → Build NEXUS Android APK → Run workflow**. When complete, download the `NEXUS-debug-apk` artifact from the run.
-
-## Version 0.2 features
-- Four selectable original crew roles: Captain, Swordsman, Navigator and Cook
-- Animated crew avatar and changing speech bubble
-- Weekly Sunday–Saturday mission planner
-- Add, complete and delete missions with time and category
-- XP, captain levels and a next-level progress bar
-- Daily three-mission challenge with a one-time +30 XP reward
-- Device-local progress saving and offline cache refresh
-
-## Notes
-- Schedule data is stored locally in the browser/app on this device.
-- Starter missions are examples and can all be edited or deleted.
-- This is a fan-made planner with original pirate-themed UI, not an official anime product.
+Open GitHub Actions → Build NEXUS Android APK. Download the NEXUS-debug-apk artifact after a successful run.
